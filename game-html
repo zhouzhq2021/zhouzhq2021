@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JS game</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/action2.js" type="text/javascript"></script>
+    <script src="js/action3.js" type="text/javascript"></script>
+</head>
+
+<body onload="drawGameBoard(8,8);">
+    <h1>JavaScript Team Collaboration</h1>
+    <button onclick="showGamePieces(8,8)"><font size=3>Show Pieces</font></button>
+    <button onclick="randomMove()"><font size=3>Random Move</font></button>
+<p><span id="member1"> Who</span> initiates the checkerboard. </p>
+<p><span id="member2"> Who</span> populates the checker coins. </p>
+<p><span id="member3"> Who</span> randomises the moves. </p><br>
+<div id="board">
+</div>
+</body>
+</html>
